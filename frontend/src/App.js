@@ -8,8 +8,9 @@ import './App.css';
 
 // Set the base URL for all API requests
 const api = axios.create({
-  baseURL: 'http://localhost:5001/api',
+  baseURL: 'http://localhost:5000/api',
 });
+
 
 function App() {
   const [products, setProducts] = useState([]);
